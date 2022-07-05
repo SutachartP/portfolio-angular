@@ -1,0 +1,50 @@
+#home,
+#about {
+  min-height: 100vh;
+}
+
+#experience {
+  min-height: 120vh;
+  background: #000;
+}
+
+.heading-home {
+  font-size: 4em;
+  font-weight: 900;
+  color: #343a40;
+  cursor: pointer;
+}
+
+.heading-low {
+  font-weight: 700;
+  color: #495057;
+  font-size: 20px;
+}
+
+.header-text {
+  font-size: 2em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.home-sub-text {
+  margin-top: 50px;
+  color: #6c757d;
+}
+
+.heading-sub {
+  color: #343a40;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.a-link-page {
+  color: #6c757d;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 0px 2px;
+}
+.a-link-page:hover {
+  color: #4f555a;
+}

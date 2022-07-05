@@ -1,12 +1,12 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-temp',
+  templateUrl: './temp.component.html',
+  styleUrls: ['./temp.component.css']
 })
-export class AppComponent {
+export class TempComponent implements OnInit {
   navBorderActive: boolean = false;
   landingMenu: any = {
     home: true,
@@ -48,5 +48,4 @@ export class AppComponent {
   contactPage() {
     this.router.navigateByUrl('contact');
   }
-
 }

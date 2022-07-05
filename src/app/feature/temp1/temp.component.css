@@ -1,0 +1,51 @@
+/* Navbar Start */
+.navbar-custom {
+    padding: 12px 10px;
+    background: #ffffff;
+  }
+  
+  .nav-link {
+    margin: 0px 5px !important;
+    cursor: pointer;
+  }
+  
+  .border-navbar {
+    left: 0%;
+    bottom: 0%;
+    position: absolute;
+    height: 2.5px;
+    width: 0%;
+    background: black;
+    transition: width 0.5s ease;
+  }
+  
+  .border-navbar-active {
+    width: 100%;
+  }
+  /* Navbar End */
+  
+  /* Navbar-link Start */
+  .nav-link,
+  .navbar-brand {
+    font-size: 18px;
+    color: #212529;
+    font-weight: 600;
+  }
+  
+  .span-link {
+    padding: 2px 6px 2px;
+    color: #212529;
+  }
+  
+  .span-link:hover {
+    color: #5a5a5a;
+    transition: width 0.3s;
+  }
+  
+  .active span.span-link {
+    background: #212529;
+    color: #ffffff;
+    transition: 1s;
+  }
+  /* Navbar-link End*/
+  

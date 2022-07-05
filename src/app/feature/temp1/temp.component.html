@@ -1,0 +1,47 @@
+<div class="navbar navbar-expand-lg navbar-light fixed-top navbar-custom">
+  <div class="container">
+    <a class="navbar-brand w-25" href="#">Sutachart P</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" (click)="homePage('home')" [ngClass]="{ 'active' : landingMenu.home }">
+            <span class="span-link">Home</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" (click)="homePage('about')" [ngClass]="{ 'active' : landingMenu.about }">
+            <span class="span-link">About Me</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" (click)="homePage('project')"
+            [ngClass]="{ 'active' : landingMenu.project }">
+            <span class="span-link">Project</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase" (click)="contactPage()" [ngClass]="{ 'active' : landingMenu.contact }">
+            <span class="span-link">Contact</span></a>
+        </li>
+      </ul>
+      <ul class="navbar-nav w-25 ms-auto">
+        <li class="nav-item">
+          <a href="https://www.facebook.com/sutachart" target="_blank" class="nav-link">
+            <img src="/assets/images/icon/nav/facebook.png" width="20" />
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.github.com/sutachart" target="_blank" class="nav-link">
+            <img src="/assets/images/icon/nav/github.png" width="20" />
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.linkedin.com/in/sutachart" target="_blank" class="nav-link">
+            <img src="/assets/images/icon/nav/linkedin.png" width="20" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="border-navbar" [ngClass]="{ 'border-navbar-active' : navBorderActive }"></div>
+</div>
+<div>
